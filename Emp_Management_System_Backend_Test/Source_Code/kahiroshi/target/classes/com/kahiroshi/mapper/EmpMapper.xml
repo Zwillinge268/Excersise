@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace: mapper reference-->
+<mapper namespace="com.kahiroshi.mapper.EmpMapper">
+    <!--id: function name, resultType: Data type (reference)-->
+    <select id="queryEmpData" resultType="com.kahiroshi.object.Emp">
+        select * from emp
+        <where>
+            <if test="name != null">
+                name like concat('%', #{name}, '%')
+            </if>
+            <if test="phone != null">
+                and phone like concat('%', #{phone}, '%')
+            </if>
+            <if test="deptId != null">
+                and dept_id = #{deptId}
+            </if>
+        </where>
+        order by last_update_time desc
+    </select>
+
+    <delete id="deleteEmpByIds">
+        delete from emp where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

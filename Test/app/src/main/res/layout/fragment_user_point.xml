@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige_100"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".user.UserPointFragment">
+
+    <include
+        android:id="@+id/user_code_image_back"
+        layout="@layout/back_button_light" />
+
+    <TextView
+        android:id="@+id/user_point_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/recommend_item_bg"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/user_point_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/user_point_to_home"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_point_point" />
+
+    <TextView
+        android:id="@+id/user_point_describe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/recommend_item_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/user_point_to_web"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_point_shopping" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--消費 1 元獲得 1 點積分-->
+    <!--結賬時可用 50 點積分可抵扣 1 元-->
+    <!--抵扣以總單 35% 金額為上限-->

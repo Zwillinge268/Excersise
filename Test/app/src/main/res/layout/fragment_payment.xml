@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/payment_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99464646"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".payment.PaymentFragment">
+
+    <RadioGroup
+        android:id="@+id/payment_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:paddingBottom="70dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <RadioButton
+            android:id="@+id/payment_radio_cash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/baseline_money_24"
+            android:text="@string/checkout_method_cash"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/payment_radio_credit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/baseline_credit_card_24"
+            android:text="@string/checkout_method_credit_card"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

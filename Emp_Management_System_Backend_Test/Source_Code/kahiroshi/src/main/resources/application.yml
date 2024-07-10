@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: kahiroshi
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/emp_sys
+    username: root
+    password: 1234
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case": true

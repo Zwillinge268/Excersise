@@ -1,0 +1,11 @@
+INSERT INTO emp (id, name, phone, dept_id, create_time, last_update_time) VALUES
+(1,'Amy Wong', '68791324', 1, now(),now()),
+(2,'Bob Chan', '69784231', 1, now(),now()),
+(3,'Cathy Cheng', '97805364', 2, now(),now()),
+(4,'Danny Yip', '96082938', 2, now(),now()),
+(5,'Eason Chan', '92837465', 3,now(),now());
+
+INSERT INTO dept (id, name, create_time, last_update_time) VALUES
+(1,'人事資源部',now(),now()),
+(2,'會計財務部',now(),now()),
+(3,'行銷宣傳部',now(),now());

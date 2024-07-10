@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#D5757575</color>
+    <color name="dark_gray">#D5535353</color>
+    <color name="gray">#3D3D3D</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="beige_100">#FAFAED</color>
+    <color name="beige_200">#FFFFEA</color>
+    <color name="beige_300">#F5F5DC</color>
+    <color name="beige_400">#E3E3B1</color>
+    <color name="beige_450">#D8D8A9</color>
+    <color name="beige_500">#C2C287</color>
+    <color name="beige_600">#9A9A5E</color>
+
+    <color name="dark_red">#690101</color>
+</resources>
