@@ -6,7 +6,7 @@
 * AOP設計方案，以切面類在所需連接點執行時記錄日志
 
 ### 系統概念圖
-![Untitled]([https://hackmd.io/_uploads/BJjL5viP0.png](https://raw.githubusercontent.com/Zwillinge268/Project/master/Emp_Management_System_Backend_Test/map.png))
+![Untitled](https://raw.githubusercontent.com/Zwillinge268/Project/master/Emp_Management_System_Backend_Test/map.png)
 
 ### Example table
 
