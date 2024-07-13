@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="project_name">KaTaKnife</string>
+    <string name="string_resource">%1$s</string>
+    <string name="double_string_resource">%1$s, %2$s</string>
+    <string name="end_of_simulation">This is the end of the simulation.</string>
+
+    <!-- Bottom Nav UI -->
+    <string name="bottom_nav_main">Home</string>
+    <string name="bottom_nav_recommend">Notice</string>
+    <string name="bottom_nav_cart">Cart</string>
+    <string name="bottom_nav_user">User</string>
+
+    <!-- Cart Page UI -->
+    <string name="cart_delete">Delete</string>
+    <string name="cart_empty_delete">Please check the item you want to delete!</string>
+    <string name="cart_delete_message">Deleted %1$d item</string>
+    <string name="cart_delete_error">Error!</string>
+    <string name="cart_missing_product">Product was removed from shelves.\nPlease delete those item.</string>
+    <string name="cart_qty_limit">You can only add between 1~99</string>
+    <string name="cart_checkout">Checkout</string>
+    <string name="cart_all">ALL</string>
+    <string name="cart_add_success">You add a item to cart</string>
+    <string name="cart_login_first">Please login first!</string>
+    <string name="cart_empty">Please check the item you want to checkout</string>
+    <string name="cart_null_message">Cart is empty. Would you like to add something new?</string>
+
+    <!-- User Page UI -->
+    <string name="user_click_login">Login</string>
+    <string name="user_no_data">Member Number: %1$s</string>
+    <string name="user_point_data">Member Points: %1$s</string>
+
+    <string name="user_code">Member Barcode</string>
+    <string name="user_point">Member Points</string>
+    <string name="user_our_web">Our Website</string>
+    <string name="user_about_us">About Us</string>
+    <string name="user_change_data">Modify User Data</string>
+    <string name="user_logout">Logout</string>
+    <string name="user_logout_success">Logout Success!</string>
+    <string name="user_point_to_home">Go Shopping →</string>
+    <string name="user_point_to_web">For every 10 dollar spent,\nyou can earn 1 point\n\nPoints can be redeemed for various products in stores\nPlease refer to our official website for details\n\n<u>Our web→</u></string>
+
+    <!-- Detail Page UI -->
+    <string name="detail_title">Product Intro</string>
+    <string name="detail_add_cart">Add to cart</string>
+    <string name="detail_look_down">▼ Detail ▼</string>
+    <string name="scroll_top">TOP</string>
+
+    <!-- Login Page UI -->
+    <string name="login_ac_name">Account</string>
+    <string name="login_ac_password">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_remember">Remember</string>
+    <string name="login_go_register"><u>Register</u></string>
+    <string name="login_forget_password"><u>Forgot Password</u></string>
+    <string name="login_wrong_id">Invalid Account</string>
+    <string name="login_wrong_password">Invalid Password</string>
+    <string name="login_banned_account">There are some problem of your account.\nPlease contact out customer service! </string>
+    <string name="login_welcome">Welcome, %1$s</string>
+
+    <!-- Register Page UI -->
+    <string name="register_confirm">Confirm Password</string>
+    <string name="register_confirm_hint">Please input password again</string>
+    <string name="register_register_btn">Register</string>
+    <string name="register_email">Email</string>
+    <string name="register_have_ac_btn">Already have account? Login →</string>
+    <string name="register_name_length">Length of account must between 3–20\n</string>
+    <string name="register_password_length">Length of password must between 6–20\n</string>
+    <string name="register_complexity_require">Password must contain uppercase and lowercase letters and numbers\n</string>
+    <string name="register_password_wrong_input">Password inputs are inconsistent</string>
+    <string name="register_user_exist">This username already exist!</string>
+    <string name="register_email_exist">This email already exist!</string>
+    <string name="register_success">Register Success!</string>
+    <string name="register_fail">Register Fail. Please contact out customer service!</string>
+
+    <!-- Forgot Password Page UI -->
+    <string name="forgot_btn">Confirm</string>
+
+    <!-- User Detail Page UI -->
+    <string name="user_detail_title">User data</string>
+    <string name="user_detail_save">Save</string>
+    <string name="user_detail_email">Email：%1$s</string>
+    <string name="user_detail_change_success">Success!</string>
+    <string name="user_detail_last_name">Last Name: </string>
+    <string name="user_detail_first_name">First Name: </string>
+    <string name="user_detail_address">Address: </string>
+
+    <!-- image description -->
+    <string name="user_icon_description">Icon</string>
+    <string name="cart_add_description">Plus one</string>
+    <string name="cart_minus_description">Minus one</string>
+    <string name="scroll_top_description">Scroll top</string>
+    <string name="back_button_image_description">Back</string>
+    <string name="modify_icon_description">Modify icon</string>
+
+    <!-- payment description -->
+    <string name="checkout_error">Error, (Code %1$d)</string>
+    <string name="checkout_pay_method">Payment %1$s</string>
+    <string name="checkout_address_string">Default Address\n%1$s\n%2$s\n%3$s</string>
+    <string name="checkout_address_null">Address can not be empty!</string>
+    <string name="checkout_total_price">Total TWD :</string>
+    <string name="checkout_button">Checkout</string>
+    <string name="checkout_times">x</string>
+    <string name="checkout_default_address">Default Address</string>
+    <string name="checkout_other_address">Other Address</string>
+    <string name="checkout_address_hint_1">Address Line 1</string>
+    <string name="checkout_address_hint_2">Address Line 2</string>
+    <string name="checkout_method_cash">Cash</string>
+    <string name="checkout_method_credit_card">Credit Card</string>
+
+    <!-- search description -->
+    <string name="search_bar_description">Search bar</string>
+    <string name="search_result_title">Searching: </string>
+    <string name="search_type">Type：</string>
+    <string name="search_price">Price：</string>
+    <string name="search_to_sign">-</string>
+    <string name="search_search">Search</string>
+
+    <string name="connection_fail">Connection error! please try later</string>
+    <string name="search_type_all">-All-</string>
+</resources>

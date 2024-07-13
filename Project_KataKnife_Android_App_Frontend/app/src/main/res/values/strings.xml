@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="project_name">KaTaKnife</string>
+    <string name="string_resource">%1$s</string>
+    <string name="double_string_resource">%1$s, %2$s</string>
+    <string name="end_of_simulation">這邊就是模擬的終點了</string>
+
+    <!-- Bottom Nav UI -->
+    <string name="bottom_nav_main">首頁</string>
+    <string name="bottom_nav_recommend">推薦</string>
+    <string name="bottom_nav_cart">購物車</string>
+    <string name="bottom_nav_user">我的</string>
+
+    <!-- Cart Page UI -->
+    <string name="cart_delete">刪除</string>
+    <string name="cart_empty_delete">請先選擇要刪除的商品！</string>
+    <string name="cart_delete_message">已刪除%1$d項筆商品</string>
+    <string name="cart_delete_error">發生錯誤！</string>
+    <string name="cart_missing_product">商品好像下架了，請忍痛刪除該商品吧~</string>
+    <string name="cart_qty_limit">商品只能為 1~99 之間</string>
+    <string name="cart_checkout">結賬</string>
+    <string name="cart_all">選擇全部</string>
+    <string name="cart_add_success">已加入購物車</string>
+    <string name="cart_login_first">請先登錄！</string>
+    <string name="cart_empty">空空如也~</string>
+    <string name="cart_null_message">購物車是空的，買點東西打賞一下自己吧~</string>
+
+    <!-- User Page UI -->
+    <string name="user_click_login">點擊登錄</string>
+    <string name="user_no_data">會員號碼：%1$s</string>
+    <string name="user_point_data">會員積分：%1$s</string>
+
+    <string name="user_code">會員條碼</string>
+    <string name="user_point">會員積分</string>
+    <string name="user_our_web">官方網站</string>
+    <string name="user_about_us">關於我們</string>
+    <string name="user_change_data">修改資料</string>
+    <string name="user_logout">退出登錄</string>
+    <string name="user_logout_success">登出成功！</string>
+    <string name="user_point_to_home">前往購物 →</string>
+    <string name="user_point_to_web">每消費10元，\n即可獲得1點積分\n\n積分可在門市兌換各種商品\n詳情請參閲我們的官方網站\n\n<u>官方網站→</u></string>
+
+    <!-- Detail Page UI -->
+    <string name="detail_title">商品資訊</string>
+    <string name="detail_add_cart">加入購物車</string>
+    <string name="detail_look_down">▼ 詳細介紹 ▼</string>
+    <string name="scroll_top">TOP</string>
+
+    <!-- Login Page UI -->
+    <string name="login_ac_name">賬戶名稱</string>
+    <string name="login_ac_password">賬戶密碼</string>
+    <string name="login_login">登錄</string>
+    <string name="login_remember">記住密碼</string>
+    <string name="login_go_register"><u>前往注冊</u></string>
+    <string name="login_forget_password"><u>忘記密碼</u></string>
+    <string name="login_wrong_id">賬號或密碼錯誤</string>
+    <string name="login_wrong_password">密碼錯誤</string>
+    <string name="login_banned_account">賬號出現問題, 請與客服聯繫</string>
+    <string name="login_welcome">歡迎, %1$s</string>
+
+    <!-- Register Page UI -->
+    <string name="register_confirm">確認密碼</string>
+    <string name="register_confirm_hint">請再次輸入密碼</string>
+    <string name="register_register_btn">注冊</string>
+    <string name="register_email">電郵地址</string>
+    <string name="register_have_ac_btn">已有賬號 ? 前往登錄 →</string>
+    <string name="register_name_length">賬號長度必須在3–20位之間\n</string>
+    <string name="register_password_length">密碼長度必須在6–20位之間\n</string>
+    <string name="register_complexity_require">密碼必須包含大小寫英文字母及數字\n</string>
+    <string name="register_password_wrong_input">兩次密碼輸入不一致</string>
+    <string name="register_user_exist">用戶名稱已被使用！</string>
+    <string name="register_email_exist">電郵地址已被使用！</string>
+    <string name="register_success">注冊成功！</string>
+    <string name="register_fail">注冊失敗，請聯繫客服！</string>
+
+    <!-- Forgot Password Page UI -->
+    <string name="forgot_btn">確定</string>
+
+    <!-- User Detail Page UI -->
+    <string name="user_detail_title">用戶資料</string>
+    <string name="user_detail_save">儲存</string>
+    <string name="user_detail_email">電郵地址：%1$s</string>
+    <string name="user_detail_change_success">更改成功！</string>
+    <string name="user_detail_last_name">姓氏：</string>
+    <string name="user_detail_first_name">名字：</string>
+    <string name="user_detail_address">地址：</string>
+
+    <!-- image description -->
+    <string name="user_icon_description">頭像</string>
+    <string name="cart_add_description">加一</string>
+    <string name="cart_minus_description">減一</string>
+    <string name="scroll_top_description">回到頂端</string>
+    <string name="back_button_image_description">返回</string>
+    <string name="modify_icon_description">修改頭像</string>
+    <string name="search_bar_description">搜尋列</string>
+
+    <!-- payment description -->
+    <string name="checkout_error">發生錯誤，(Code %1$d)</string>
+    <string name="checkout_pay_method">付款方式 %1$s</string>
+    <string name="checkout_address_string">默認地址\n%1$s\n%2$s\n%3$s</string>
+    <string name="checkout_address_null">地址不能為空！</string>
+    <string name="checkout_total_price">合計 TWD :</string>
+    <string name="checkout_button">去結賬</string>
+    <string name="checkout_times">x</string>
+    <string name="checkout_default_address">默認地址</string>
+    <string name="checkout_other_address">其他地址</string>
+    <string name="checkout_address_hint_1">地址行1：門號、街道</string>
+    <string name="checkout_address_hint_2">地址行2：村、區、縣市</string>
+    <string name="checkout_method_cash">現金</string>
+    <string name="checkout_method_credit_card">信用卡</string>
+
+    <!-- search description -->
+    <string name="search_result_title">搜尋：</string>
+    <string name="search_type">類型：</string>
+    <string name="search_price">價格：</string>
+    <string name="search_to_sign">-</string>
+    <string name="search_search">搜尋</string>
+
+    <!-- api test -->
+    <string name="api_key" translatable="false">xxoo</string>
+    <string name="connection_fail">網路異常，請稍後再嘗試！</string>
+    <string name="search_type_all">-全部-</string>
+</resources>
