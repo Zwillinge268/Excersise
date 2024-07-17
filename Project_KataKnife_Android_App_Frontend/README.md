@@ -3,7 +3,11 @@
 背景：一間刀具廠商的App購物平臺
 
 使用Kotlin建置Android app前端
+
 使用restdb.io網路儲存空間存放資料
+
+### 所練習功能
+基礎視圖展示及數據傳輸，基礎網路請求(HttpURLConnection)，ViewBinding視圖綁定，SharedPreferences及SQLite本地數據儲存應用
 
 ### 主要頁面
 * 首頁
@@ -53,6 +57,3 @@
 語言切換
 
 自動登入(記住密碼)
-
-### 所練習功能
-基礎視圖展示及數據傳輸，基礎網路請求(HttpURLConnection)，ViewBinding視圖綁定，SharedPreferences及SQLite本地數據儲存應用
